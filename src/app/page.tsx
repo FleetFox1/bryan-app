@@ -6,14 +6,20 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center text-center min-h-screen">
       {/* Profile Photo */}
-      <div className="relative w-40 h-40 rounded-full overflow-hidden border-4 border-[#d4af37] shadow-lg mb-6">
-        <Image
-          src="/profile.jpg"
-          alt="Bryan Blankenburg"
-          fill
-          className="object-cover"
-          priority
-        />
+      <div className="relative w-44 h-44 flex items-center justify-center mb-8">
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="hex-frame w-44 h-44 absolute"></div>
+        </div>
+
+        <div className="hex-mask w-40 h-40 overflow-hidden relative z-10">
+          <Image
+            src="/profile.jpg"
+            alt="Bryan Blankenburg"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
       </div>
 
       {/* Intro Text */}

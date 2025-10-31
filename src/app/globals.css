@@ -24,3 +24,35 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+ .hex-mask {
+  clip-path: polygon(
+    50% 0%,
+    93% 25%,
+    93% 75%,
+    50% 100%,
+    7% 75%,
+    7% 25%
+  );
+}
+
+.hex-frame {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #f1bf2b, #d4af37, #4e3b03);
+  clip-path: polygon(
+    50% 0%,
+    93% 25%,
+    93% 75%,
+    50% 100%,
+    7% 75%,
+    7% 25%
+  );
+  z-index: 1;
+  filter: drop-shadow(0 0 12px rgba(255, 215, 80, 0.75));
+}
+
+
+.hex-frame:hover {
+  filter: drop-shadow(0 0 25px rgba(212, 175, 55, 0.9));
+  transition: filter 0.4s ease-in-out;
+}
