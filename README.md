@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🜂 Bryan Blankenburg — How I See It
 
-## Getting Started
+**Personal site and digital workshop**  
+Built with [Next.js 16](https://nextjs.org/), [React 19](https://react.dev/), [Tailwind CSS 4](https://tailwindcss.com/), and [pnpm](https://pnpm.io/).
 
-First, run the development server:
+---
+
+### 🪞 Overview
+
+This site serves as a living document — a place to write, experiment, and explore the systems that connect technology, story, and trust.
+
+It’s home to **_How We See It — A Manifest for the Time Between Systems_**,  
+a statement about rebuilding digital culture with intent, permanence, and human value.
+
+---
+
+### 🧱 Tech Stack
+
+- **Framework:** Next.js 16 (App Router, TypeScript, Turbopack)
+- **UI:** Tailwind CSS 4, Google Fonts (Inter + Playfair Display)
+- **Hosting:** Vercel
+- **Package Manager:** pnpm
+- **Version Control:** Git + GitHub
+
+---
+
+### 🗂️ Structure
+
+src/
+├─ app/
+│ ├─ layout.tsx # global layout (sidebar, footer)
+│ ├─ page.tsx # home / intro
+│ ├─ manifest/ # "How We See It" manifesto
+│ └─ components/ # sidebar, footer, and shared layout elements
+├─ styles/ # global CSS and theme files
+public/
+└─ profile.jpg # personal portrait
+
+
+---
+
+### 🌗 Manifest
+
+> _“Technology is only meaningful when it protects what’s human.”_
+
+**How We See It** outlines the foundation for Bryan’s work across  
+**CollectLegacy**, **CollecTrust**, and **Bomb City Studio** —  
+building systems with soul in an era between collapse and creation.
+
+You can read it live at:  
+[https://bryanblankenburg.com/manifest](https://bryanblankenburg.com/manifest)
+
+---
+
+### 🛠️ Development
+
+To run locally:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
-```
+Then visit http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📬 Contact
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Website: https://bryanblankenburg.com
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+GitHub: @bryanblankenburg
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+CollectLegacy LLC: https://collectlegacy.com
